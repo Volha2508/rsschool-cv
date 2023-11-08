@@ -5,11 +5,11 @@
 #### GitHub: [Volha2508](https://github.com/Volha2508)
 
 ## About Myself:
-#### 2004 - 2020 teacher https://dl.gsu.by/
-#### 2020 - 2021 teacher http://gim56.by/
+#### 2004 - 2020 teacher (https://dl.gsu.by/)
+#### 2020 - 2021 teacher (http://gim56.by/)
 
 ## Skills:
-#### Basic: HTML, CSS, c++, python;
+#### Basic: HTML, CSS, c++, JS;
 #### course author: https://stepik.org/course/59092/syllabus
 
 ## Code Examples:
