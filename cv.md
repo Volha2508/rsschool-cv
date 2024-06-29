@@ -1,5 +1,5 @@
 # Olga Kapichenka
-
+![sea](/img/sea.png "a nice place")
 ## Contact information:
 #### Phone: +48 795760636
 #### GitHub: [Volha2508](https://github.com/Volha2508)
