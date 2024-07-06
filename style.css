@@ -126,6 +126,10 @@ body {
     .section {
       width: 100%;
     }
+    .section-profile {
+        flex-direction: column;
+        align-items: center;
+    }  
 }
 .pre {
     text-align: left;
