@@ -23,21 +23,21 @@
         </div>
     </header>
     <main class = "main">
-        <div class = "container"> 
-            <div class = "main-container">
-                <section class="section0"  id="profile"> 
+        <div class = "container main-container"> 
+           
+                <section class="section section-profile"  id="profile"> 
                     <img src="./assets/img/animeIam.jpg" alt="avatar"  >
-                </section>
-                <section class="section" id="contacts">
-                    <div class="h1-section0">
-                        <h1 class="section-title"> 
+                    <div class="section-profile-title">
+                
+                    
+                        <h1> 
                             Olga Kapichenka
                         </h1>
-                        <p class="section-text">Future Front-end Developer</p>
+                        <div class="section-text">Future Front-end Developer</div>
                     </div>
                 </section>
-            </div>
-            <div class = "main-container">
+        
+            
                 <section class="section" id="contacts">
                     <h2 class="section-title"> 
                         Contacts
@@ -75,6 +75,14 @@
                     <h2 class="section-title"> 
                         Code
                     </h2>
+                    Complete the square sum function so that it 
+                    squares each number passed into it and then sums the results together.
+                    <pre class="pre">
+                        <code>
+function squareSum(numbers){ 
+    return numbers.reduce((res, x) => res + x**2, 0);
+}                       </code>
+                    </pre> 
                 </section>
                 <section class="section" id="projects">
                     <h2 class="section-title">
@@ -86,7 +94,7 @@
                         Education
                     </h2>
                 </section> 
-            </div>
+            
         </div>
     </main>
     <footer class = "footer">
