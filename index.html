@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/img/favicon.ico">
+</head>
+<body>
+    <header class = "header">
+        <div class = "container"> 
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class = "main">
+        <div class = "container main-container"> 
+                <section class="section section-profile"  id="profile"> 
+                    <img src="./assets/img/animeIam.jpg" alt="avatar">
+                    <div class="section-profile-title">
+                        <h1> 
+                            Olga Kapichenka
+                        </h1>
+                        <div class="section-text">Future Front-end Developer</div>
+                    </div>
+                </section>
+                <section class="section" id="contacts">
+                    <h2 class="section-title"> 
+                        Contacts
+                    </h2>
+                    <nav class="nav">
+                        <ul class="main-nav-list">
+                            <li class="nav-item">Phone: 
+                                <div class="section-text">+48 795760636</div>
+                            </li>
+                            <li class="nav-item">Discord:
+                                <a href="https://discordapp.com/users/1141303966513254422/" class="text-link">Volha</a>
+                            </li>
+                            <li class="nav-item">GitHub:
+                                <a href="https://github.com/Volha2508" class="text-link">Volha2508</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+                <section class="section" id="about-me">
+                    <h2 class="section-title">About me</h2>
+                    <div class="section-text nav-item">
+                        From 2004 to 2020, I worked as a teacher at the sports programming club <a href="https://dl.gsu.by/" class="text-link">dl.gsu.by</a>. 
+                        My job was to teach the basics of programming and algorithmization to beginning students. 
+                        <br>From 2021 to 2021 I worked as a computer science teacher at school <a href="http://gim56.by/" class="text-link">gim56.by</a>. 
+                        Now I am preparing students for math exams and studying front-end development.
+                    </div>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title"> 
+                        Skills
+                    </h2>
+                    <nav class="nav">
+                        <ul class="main-nav-list">
+                            <li class="nav-item">Web-development:
+                                <div class="section-text">HTML5, CSS3, JavaScrip</div>
+                            </li>
+                            <li class="nav-item">Version control:
+                                <div class="section-text">GIT, Github</div>
+                            </li>
+                            <li class="nav-item">course author:
+                                <a href="https://stepik.org/course/59092/syllabus" class="text-link">https://stepik.org/course/59092/syllabus</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+                <section class="section" id="code">
+                    <h2 class="section-title"> 
+                        Code
+                    </h2>
+                    Complete the square sum function so that it 
+                    squares each number passed into it and then sums the results together.
+                    <pre class="pre">
+                        <code>
+function squareSum(numbers){ 
+    return numbers.reduce((res, x) => res + x**2, 0);
+}                       </code>
+                    </pre> 
+                </section>
+                <section class="section" id="projects">
+                    <h2 class="section-title">
+                        Projects
+                    </h2>
+                    <ul class="main-nav-list">
+                        <li class="nav-item">
+                            <a href="https://volha2508.github.io/rsschool-cv/" class="text-link">My first project CV</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section" id="education">
+                    <h2 class="section-title">
+                        Education
+                    </h2>
+                    <ul class="main-nav-list">
+                        <li class="nav-item">
+                            <a href="https://www.gsu.by/en/university" class="text-link">Francisk Skorina Gomel State University 2000-2005</a>
+                        </li>
+                        <li class="nav-item">Languages: 
+                            <div class="section-text">Belarusian(Native), English(basic), Polish(basic)</div>
+                        </li>
+                    </ul>
+                </section> 
+        </div>
+    </main>
+    <footer class = "footer">
+        <div class = "container">
+            <nav class="nav">
+                <ul class="footer-list">
+                    <li class="nav-item">
+                        <a href="https://github.com/Volha2508" class="nav-link">My GitHub</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <div class="section-text">2024</div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://rs.school/courses/javascript-preschool-ru" class="nav-link">
+                            <img src="./assets/img/rs-school-logo.svg" width="86" height="32" alt="rs-school">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
