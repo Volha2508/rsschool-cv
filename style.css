@@ -63,6 +63,7 @@ body {
 .nav-list {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     align-items: center;
     list-style: none;
     margin: 0;
@@ -130,6 +131,9 @@ body {
         flex-direction: column;
         align-items: center;
     }  
+    .nav-list {
+        flex-wrap: wrap;
+    }
 }
 .pre {
     text-align: left;
